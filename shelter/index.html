@@ -7,6 +7,420 @@
     <title>Shelter</title>
     </head>
     <body>
+        <section class="start-screen">
+            <div class="burger-container">
+                <div class="burger-menu">
+                    <div class="nav-menu">
+                        <a 
+                            href="./index.html"
+                            class="nav-menu__item font_arial dark item_active"
+                        >
+                            About the shelter
+                        </a>
+                        <a 
+                            class="nav-menu__item font_arial dark"
+                            href="./pets.html"
+                        >
+                            Our pets
+                        </a>
+                        <a 
+                            class="nav-menu__item font_arial dark"
+                            href="./index.html#help"
+                        >
+                            Help the shelter
+                        </a>
+                        <a 
+                            class="nav-menu__item font_arial dark"
+                            href="#footer"
+                        >
+                            Contacts
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <header class="header">
+                <div class="wrapper wrapper__header">
+                <div 
+                    class="logo"
+                    onclick="location.href=''" 
+                >
+                    <span class="logo__title font_georgia">Cozy House</span>
+                    <span class="logo__subtitle font_arial">Shelter for pets in Boston</span>
+                </div>
+                <div class="nav-menu">
+                    <a 
+                        class="nav-menu__item font_arial item_active"
+                    >
+                        About the shelter
+                    </a>
+                    <a 
+                        class="nav-menu__item font_arial"
+                        href="./pets.html"
+                    >
+                        Our pets
+                    </a>
+                    <a 
+                        class="nav-menu__item font_arial"
+                        href="#help"
+                    >
+                        Help the shelter
+                    </a>
+                    <a 
+                        class="nav-menu__item font_arial"
+                        href="#footer"
+                    >
+                        Contacts
+                    </a>
+                </div>
+                <div class="burger-button">
+                    <span></span>
+                </div>
+                </div>
+            </header>
+            <div class="wrapper wrapper__start-screen">
+                <div class="start-screen__column">
+                    <h2 class="start-content__heading font_georgia">
+                        Not only people <br> need a house
+                    </h2>
+                    <p class="start-content__subtitle font_arial">
+                        We offer to give a chance to a little and nice puppy 
+                        with an extremely wide and open heart. He or she will 
+                        love you more than anybody else in the world, you will see!
+                    </p>
+                    <button 
+                        class="button filled font_georgia"
+                        onclick="window.location.href = '#ourfriends'"
+                    >
+                        Make a friend
+                    </button>
+                </div>
+                <div class="start-screen__column">
+                    <img 
+                        src="./accets/start-screen/start-screen-puppy.svg"
+                        alt=""
+                        class="start-content__puppy"
+                    >
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <div class="wrapper wrapper__about">
+                <div class="about__column">
+                    <img 
+                        src="./accets/about/about-pets.svg"
+                        alt=""
+                        class="about__pets"
+                    >
+                </div>
+                <div class="about__column">
+                    <h3 class="about__heading font_georgia">
+                        About the shelter “Cozy House”
+                    </h3>
+                    <p class="about__subtitle font_arial">
+                        Currently we have 121 dogs and 342 cats 
+                        on our hands and statistics show that only 
+                        20% of them will find a family. The others will 
+                        continue to live with us and will be waiting for a 
+                        lucky chance to become dearly loved.
+                    </p>
+                    <p class="about__subtitle font_arial">
+                        We feed our wards with the best food and 
+                        make sure that they do not get sick, feel 
+                        comfortable (including psychologically) and well. 
+                        We are supported by 87 volunteers and 28 employees 
+                        of various skill levels. About 12% of the animals 
+                        are taken by the shelter staff. Taking care of the animals, 
+                        they become attached to the pets and would hardly ever leave 
+                        them alone.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="pets" id="ourfriends">
+            <div class="wrapper wrapper__pets">
+                <h3 class="pets__heading heading font_georgia">
+                    Our friends who <br> are looking for a house
+                </h3>
+                <div class="slider">
+                    <button class="slider__button arrow prev"></button>
+                    <div class="slider__container">
+                        <div class="slider__item">
+                            <img
+                                src="./accets/pets/pets-katrine.svg"
+                                alt=""
+                            >
+                            <div class="slider__title font_georgia">Katrine</div>
+                            <div class="button empty font_georgia">Learn more</div>
+                        </div>
+                        <div class="slider__item">
+                            <img
+                                src="./accets/pets/pets-jennifer.svg"
+                                alt=""
+                            >
+                            <div class="slider__title font_georgia">Jennifer</div>
+                            <div class="button empty font_georgia">Learn more</div>
+                        </div>
+                        <div class="slider__item">
+                            <img
+                                src="./accets/pets/pets-woody.svg"
+                                alt=""
+                            >
+                            <div class="slider__title font_georgia">Woody</div>
+                            <div class="button empty font_georgia">Learn more</div>
+                        </div>
+                    </div>
+                    <button class="slider__button arrow next"></button>
+                </div>
+                <button 
+                    class="button filled font_georgia"
+                    onclick="location.href='pets.html'" 
+                >
+                    Get to know the rest
+                </button>
+            </div>
+            <div class="pop">
+                <div class="pop__container">
+                    <button class="slider__button pop_button"></button>
+                    <img class="pop__img" src="./accets/pets/pets-jennifer.svg" alt=""></img>
+                    <div class="pop__content">
+                        <h3 class="pop_title title font_georgia">
+                            Jennifer
+                        </h3>
+                        <h4 class="pop__subheading font_georgia">
+                            Dog - Labrador
+                        </h4>
+                        <h5 class="pop__text font_georgia">
+                            Jennifer is a sweet 2 months old Labrador 
+                            that is patiently waiting to find a new forever 
+                            home. This girl really enjoys being able to go 
+                            outside to run and play, but won't hesitate to 
+                            play up a storm in the house if she has all of her 
+                            favorite toys.
+                        </h5>
+                        <ul class="pop__info-container">
+                            <li class="pop__item">
+                                <span class="pop__type font_georgia">Age:</span>
+                                <h5 class="pop__text pop__age">2 months</h5>
+                            </li>
+                            <li class="pop__item">
+                                <span class="pop__type font_georgia">Inoculations:</span>
+                                <h5 class="pop__text pop__inc">none</h5>
+                            </li>
+                            <li class="pop__item">
+                                <span class="pop__type font_georgia">Diseases:</span>
+                                <h5 class="pop__text pop__dis">none</h5>
+                            </li>
+                            <li class="pop__item">
+                                <span class="pop__type font_georgia">Parasites:</span>
+                                <h5 class="pop__text pop__parasit">none</h5>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="help" id="help">
+            <div class="wrapper wrapper__help">
+                <h3 class="help__heading heading font_georgia">
+                    How you can help <br> our shelter
+                </h3>
+                <div class="list">
+                    <div class="list__item">
+                        <img 
+                            class="list_icon"
+                            src="./accets/help/icon-pet-food.svg"
+                            alt=""
+                        >
+                        <h4 class="list__text font_georgia">
+                            Pet food
+                        </h4>
+                    </div>
+                    <div class="list__item">
+                        <img 
+                            class="list_icon"
+                            src="./accets/help/icon-transportation.svg"
+                            alt=""
+                        >
+                        <h4 class="list__text font_georgia">
+                            Transportation
+                        </h4>
+                    </div>
+                    <div class="list__item">
+                        <img 
+                            class="list_icon"
+                            src="./accets/help/icon-toys.svg"
+                            alt=""
+                        >
+                        <h4 class="list__text font_georgia">
+                            Toys
+                        </h4>
+                    </div>
+                    <div class="list__item">
+                        <img 
+                            class="list_icon"
+                            src="./accets/help/icon-bowls-and-cups.svg"
+                            alt=""
+                        >
+                        <h4 class="list__text font_georgia">
+                            Bowls and cups
+                        </h4>
+                    </div>
+                    <div class="list__item">
+                        <img 
+                            class="list_icon"
+                            src="./accets/help/icon-shampoos.svg"
+                            alt=""
+                        >
+                        <h4 class="list__text font_georgia">
+                            Shampoos
+                        </h4>
+                    </div>
+                    <div class="list__item">
+                        <img 
+                            class="list_icon"
+                            src="./accets/help/icon-vitamins.svg"
+                            alt=""
+                        >
+                        <h4 class="list__text font_georgia">
+                            Vitamins
+                        </h4>
+                    </div>
+                    <div class="list__item">
+                        <img 
+                            class="list_icon"
+                            src="./accets/help/icon-medicines.svg"
+                            alt=""
+                        >
+                        <h4 class="list__text font_georgia">
+                            Medicines
+                        </h4>
+                    </div>
+                    <div class="list__item">
+                        <img 
+                            class="list_icon"
+                            src="./accets/help/icon-collars-leashes.svg"
+                            alt=""
+                        >
+                        <h4 class="list__text font_georgia">
+                            Collars / leashes
+                        </h4>
+                    </div>
+                    <div class="list__item">
+                        <img 
+                            class="list_icon"
+                            src="./accets/help/icon-sleeping-area.svg"
+                            alt=""
+                        >
+                        <h4 class="list__text font_georgia">
+                            Sleeping areas
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="donation">
+            <div class="wrapper donation__wrapper">
+                <div class="donation__column">
+                    <img 
+                        src="./accets/donation/donation-dog.svg"
+                        alt=""
+                        class="donation__img"
+                    >
+                </div>  
+                <div class="donation__column font_georgia">
+                    <h3 class="donation_heading heading font_georgia">
+                        You can also<br>  make a donation
+                    </h3>
+                    <h5 class="donation__subheading font_georgia">
+                        Name of the bank / Type of bank account
+                    </h5>
+                    <div class="credit-card">
+                        <img
+                            src="./accets/donation/credit-card.svg"
+                            alt=""
+                            class="donation__card-icon"
+                        >
+                        <h4 class="donation__card-number font_georgia">
+                            <a href="">
+                                8380 2880 8028 8791 7435
+                            </a>
+                        </h4>
+                    </div>
+                    <p class="donation__info font_arial">
+                        Legal information and lorem ipsum 
+                        dolor sit amet, consectetur adipiscing 
+                        elit. Maecenas a ipsum at libero sagittis
+                        dignissim sed ac diam. Praesent ultrices
+                        maximus tortor et vulputate. Interdum 
+                        et malesuada fames ac ante ipsum primis
+                        in faucibus.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <footer class="footer" id="footer">
+            <div class="wrapper wrapper__footer">
+                <div class="footer__column">
+                    <h3 class="title font_georgia">
+                        For questions and suggestions
+                    </h3>
+                    <div class="footer-item">
+                        <img
+                            src="./accets/footer/icon-email.svg"
+                            alt=""
+                            class="footer-item__icon-info"
+                        >
+                        <h4 class="footer-item__info font_georgia">
+                            email@shelter.com
+                        </h4>
+                    </div>
+                    <div class="footer-item">
+                        <img
+                            src="./accets/footer/icon-phone.svg"
+                            alt=""
+                            class="footer-item__icon-info"
+                        >
+                        <h4 class="footer-item__info font_georgia">
+                            +13 674 567 75 54
+                        </h4>
+                    </div>
+                </div>
+                <div class="footer__column">
+                    <h3 class="title font_georgia">
+                        We are waiting for your visit
+                    </h3>
+                    <div class="footer-item">
+                        <img
+                            src="./accets/footer/icon-marker.svg"
+                            alt=""
+                            class="footer-item__icon-marker"
+                        >
+                        <h4 class="footer-item__info font_georgia">
+                            1 Central Street, Boston 
+                            (entrance from the store)
+                        </h4>
+                    </div>
+                    <div class="footer-item">
+                        <img
+                            src="./accets/footer/icon-marker.svg"
+                            alt=""
+                            class="footer-item__icon-marker"
+                        >
+                        <h4 class="footer-item__info font_georgia">
+                            18 South Park, London 
+                        </h4>
+                    </div>
+                </div>
+                <div class="footer__column">
+                    <img
+                        src="./accets/footer/footer-puppy.svg"
+                        alt=""
+                        class="footer__puppy"
+                    >
+                </div>
+            </div>
+        </footer>
         <script src="index.js" type="module"></script>
+        <script src="./components/main.js" type="module"></script>
     </body>
 </html>
